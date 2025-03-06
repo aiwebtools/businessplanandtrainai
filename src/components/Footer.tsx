@@ -139,10 +139,17 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} AI WEB TOOLS LLC. All rights reserved.
+            <a 
+              href="https://www.aiwebtools.ai"
+              className="hover:text-cyberpunk-green transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              &copy; {currentYear} AI WEB TOOLS LLC. All rights reserved.
+            </a>
           </p>
           
-          <div className="flex space-x-6">
+          <div className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6">
             <a 
               href="https://chatgpt.com/g/g-q7pLvlyHl-business-plan-generator-gpt" 
               className="text-white/60 hover:text-cyberpunk-green transition-colors text-sm"

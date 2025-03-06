@@ -1,1 +1,37 @@
+
 /* Most styles now handled by index.css and tailwind */
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Improve touch targets on mobile */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Fix iOS input styling */
+input, 
+textarea,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+/* Prevent zoom on iOS inputs */
+@media screen and (-webkit-min-device-pixel-ratio: 0) { 
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"] {
+    font-size: 16px;
+  }
+}

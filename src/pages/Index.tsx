@@ -39,7 +39,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       <Navbar />
-      <main>
+      <main className="pb-12">
         <Hero />
         <Features />
         <Testimonials />
