@@ -64,6 +64,15 @@ const Footer = () => {
               </li>
               <li>
                 <a 
+                  href="https://dataanalysisandreportai.lovable.app/" 
+                  className="text-white/60 hover:text-cyberpunk-green transition-colors flex items-center"
+                >
+                  <span>Data Analysis & Reports AI</span>
+                  <ExternalLink className="h-3 w-3 ml-1 inline" />
+                </a>
+              </li>
+              <li>
+                <a 
                   href="https://www.aiwebtools.ai" 
                   className="text-white/60 hover:text-cyberpunk-green transition-colors flex items-center"
                 >
