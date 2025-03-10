@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Disclaimer from "@/components/Disclaimer";
 import Footer from "@/components/Footer";
+import ConsentPopup from "@/components/ConsentPopup";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -47,6 +48,7 @@ const Index = () => {
         <Disclaimer />
       </main>
       <Footer />
+      <ConsentPopup />
     </div>
   );
 };
