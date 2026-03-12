@@ -126,7 +126,7 @@ const Navbar = () => {
           ))}
           <div className="pt-4">
             <AnimatedButton
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               className="w-full"
               variant="primary"
               size="md"
