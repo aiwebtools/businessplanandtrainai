@@ -135,7 +135,7 @@ const Footer = () => {
               Discover our full suite of AI-powered tools designed to help your business thrive in the digital age.
             </p>
             <AnimatedButton
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               variant="primary"
               size="md"
               className="w-full"
