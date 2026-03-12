@@ -84,7 +84,7 @@ const Navbar = () => {
             </a>
           ))}
           <AnimatedButton
-            href="https://www.aiwebtools.ai"
+            href="https://aiwebtools.lovable.app/?via=aiwebtools"
             variant="primary"
             size="sm"
           >
