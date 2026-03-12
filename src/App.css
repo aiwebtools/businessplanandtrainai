@@ -12,7 +12,6 @@
   /* Improve touch targets on mobile */
   button, a {
     min-height: 44px;
-    min-width: 44px;
   }
 }
 
@@ -33,5 +32,23 @@ button {
   input[type="number"],
   input[type="email"] {
     font-size: 16px;
+  }
+}
+
+/* Ensure touch interactions are instant */
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Safe area insets for notched devices */
+.container {
+  padding-left: max(1rem, env(safe-area-inset-left));
+  padding-right: max(1rem, env(safe-area-inset-right));
+}
+
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  footer {
+    padding-bottom: calc(2rem + env(safe-area-inset-bottom));
   }
 }

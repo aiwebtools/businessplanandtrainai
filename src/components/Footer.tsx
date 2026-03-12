@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-white/60 hover:text-cyberpunk-green transition-colors flex items-center"
                 >
                   <span>Browse More AI Tools</span>
@@ -116,7 +116,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/terms-of-services?via=aiwebtools" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/60 hover:text-cyberpunk-green transition-colors flex items-center"
@@ -135,7 +135,7 @@ const Footer = () => {
               Discover our full suite of AI-powered tools designed to help your business thrive in the digital age.
             </p>
             <AnimatedButton
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               variant="primary"
               size="md"
               className="w-full"
@@ -149,7 +149,7 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm mb-4 md:mb-0">
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               className="hover:text-cyberpunk-green transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -189,7 +189,7 @@ const Footer = () => {
         {/* Floating Button */}
         <div className="fixed bottom-6 right-6 z-50">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="block w-16 h-16 rounded-full bg-gradient-to-r from-cyberpunk-green to-cyberpunk-blue p-[2px] animate-pulse-glow shadow-lg"
             target="_blank"
             rel="noopener noreferrer"
