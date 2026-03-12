@@ -63,7 +63,7 @@ const Navbar = () => {
             <p className="text-xs text-white/60">
               Presented by{" "}
               <a
-                href="https://www.aiwebtools.ai"
+                href="https://aiwebtools.lovable.app/?via=aiwebtools"
                 className="text-cyberpunk-green hover:underline"
               >
                 AiWebTools.Ai
